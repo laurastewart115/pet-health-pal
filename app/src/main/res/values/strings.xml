@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Pet Health Pal</string>
+    <string name="AddMenuPet">+</string>
+    <string name="title_activity_pet_details">Details</string>
+    <string name="title_info">Information</string>
+    <string name="title_reminders">Reminders</string>
+    <string name="title_health">Health</string>
+    <string name="add_pet">Add Pet</string>
+    <string name="create_reminder">Create Reminder</string>
+    <string name="add_new_reminder">Add New Reminder</string>
+    <string name="confirm">Confirm</string>
+    <string name="title">title</string>
+    <string name="time">time</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="add_new_note">Add New Note</string>
+    <string name="note_body">note body</string>
+    <string name="save">Save</string>
+    <string name="date">date</string>
+
+    <string-array name="weekdays">
+        <item>Daily</item>
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+
+</resources>

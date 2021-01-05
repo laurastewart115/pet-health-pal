@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/custom_border"
+    >
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_new_reminder"
+        android:layout_marginVertical="5dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        />
+
+    <EditText
+        android:id="@+id/editTextReminderTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp"
+        android:hint="@string/title"
+        android:inputType="text"
+        />
+
+    <Spinner
+        android:id="@+id/spinnerWeekday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TimePicker android:id="@+id/timePickerReminder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp"
+        android:layout_gravity="center"
+        android:timePickerMode="spinner" />
+
+    <Button
+        android:id="@+id/btnConfirmReminder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp"
+        android:text="@string/confirm"
+        />
+    <Button
+        android:id="@+id/btnDismiss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/purple_700"
+        android:text="@string/dismiss"
+        />
+</LinearLayout>
